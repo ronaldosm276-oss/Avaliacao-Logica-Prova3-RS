@@ -5,32 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prova 3</title>
 
-    <script src="js/calculo.js"></script>
+    <script src="js/script.js" defer></script>
 
     <link rel="stylesheet" href="">
 
 </head>
 <body>
     <h3>AVALIAÇÃO - 3</h3>
-
+    <p>Calculadora de preço de lote: 550 reais por m2</p>
     <div id="geral">
         <form id="formulario">
             <label for="quadra">Quadra</label>
-            <input type="text" name="" id="quadra">
+            <input type="text" name="" id="quadra" required>
             <br>
-            <label for="quadra">Lote</label>
-            <input type="text" name="" id="lote">
+            <label for="lote">Lote</label>
+            <input type="text" name="" id="lote" required>
             <br>
             <label for="comprimento">Comprimento (em m2)</label>
-            <input type="number" name="" id="comprimento">
+            <input type="number" name="" id="comprimento" required>
             <br>
             <label for="largura">Largura (em m2)</label>
-            <input type="number" name="" id="largura">
+            <input type="number" name="" id="largura" required>
 
+            <button type="submit">ENVIAR</button>
+            <button type="reset">LIMPAR</button>
         </form>
 
         <div id="info">
-            
+
         </div>
     </div>
 </body>

@@ -1,6 +1,7 @@
 Uma construtora lançou no mercado imobiliário um
 empreendimento composto por lotes destinados a um
 condomínio residencial fechado.
+
 Os lotes possuem formato retangular e estão disponíveis em
 diferentes dimensões. Para calcular o valor de um lote, é
 necessário conhecer suas medidas (comprimento e largura),
@@ -30,8 +31,7 @@ Entre R$ 20.000,00 até R$ 100.000,00 5%
 
 Entre R$ 100.000,00 até R$ 500.000,00 10%
 
-Entre R$ 500.000,00 até R$
-1.000.000,00 15%
+Entre R$ 500.000,00 até R$1.000.000,00 15%
 
 Acima de R$ 1.000.000,00 20%
 
