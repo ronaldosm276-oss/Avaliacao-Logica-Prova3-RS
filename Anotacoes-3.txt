@@ -39,6 +39,7 @@ Sua tarefa é desenvolver um algoritmo utilizando as
 tecnologias HTML e JavaScript para atender a esse desafio.
 O sistema deverá conter um formulário que permita ao
 usuário informar os seguintes dados do lote:
+
 Descrição (Quadra e Lote);
 Comprimento (em metros);
 Largura (em metros).
@@ -62,6 +63,8 @@ uma estrutura de repositório clara e bem definida.
 Inicialmente, crie o repositório contendo a estrutura
 básica do projeto, incluindo o arquivo index.html e a pasta
 js/script.js.
+
+
 
 A branch principal (main ou master) deverá conter apenas
 versões estáveis do projeto. Durante o desenvolvimento,
