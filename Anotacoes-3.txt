@@ -1,0 +1,72 @@
+Uma construtora lançou no mercado imobiliário um
+empreendimento composto por lotes destinados a um
+condomínio residencial fechado.
+Os lotes possuem formato retangular e estão disponíveis em
+diferentes dimensões. Para calcular o valor de um lote, é
+necessário conhecer suas medidas (comprimento e largura),
+calcular sua área em metros quadrados (m2) e multiplicá-la
+pelo valor do metro quadrado da região, fixado em R$
+550,00.
+Cada lote é identificado por uma descrição composta pelo
+nome da quadra e o número do lote. Além disso, são
+informados o comprimento e a largura.
+Exemplo:
+Descrição: Quadra 01 – Lote 02
+Comprimento: 20 m
+Largura: 12 m
+
+Após calcular o valor do lote, deve ser aplicado um valor
+adicional conforme a seguinte tabela:
+
+SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL
+Centro de Educação e Tecnologia Albano Franco-AJU
+Curso: Programador Full Stack - Programador Full Stack
+
+Valor do lote Valor adicional
+
+Até R$ 20.000,00 Isento
+
+Entre R$ 20.000,00 até R$ 100.000,00 5%
+
+Entre R$ 100.000,00 até R$ 500.000,00 10%
+
+Entre R$ 500.000,00 até R$
+1.000.000,00 15%
+
+Acima de R$ 1.000.000,00 20%
+
+Sua tarefa é desenvolver um algoritmo utilizando as
+tecnologias HTML e JavaScript para atender a esse desafio.
+O sistema deverá conter um formulário que permita ao
+usuário informar os seguintes dados do lote:
+Descrição (Quadra e Lote);
+Comprimento (em metros);
+Largura (em metros).
+
+Após o envio do formulário, o sistema deverá exibir, na
+mesma página e abaixo do formulário, uma lista contendo:
+Descrição do lote;
+Comprimento;
+Largura;
+Área (m2);
+Valor do lote;
+Valor adicional (ou a informação "Isento", quando
+aplicável);
+
+A lista deverá ser atualizada automaticamente a cada novo
+lote cadastrado, preservando os registros.
+Fica a seu critério, mas é obrigatório utilizar: Array,
+Funções, Estrutura de repetição e Estrutura de Decisão.
+Organize o versionamento do projeto no GitHub, utilizando
+uma estrutura de repositório clara e bem definida.
+Inicialmente, crie o repositório contendo a estrutura
+básica do projeto, incluindo o arquivo index.html e a pasta
+js/script.js.
+
+A branch principal (main ou master) deverá conter apenas
+versões estáveis do projeto. Durante o desenvolvimento,
+utilize branches específicas para cada funcionalidade ou
+correção, realizando a integração com a branch principal
+somente após a conclusão e validação das alterações.
+Realize commits frequentes, utilizando uma convenção de
+mensagens padronizadas.
