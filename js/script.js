@@ -7,10 +7,12 @@ const comprimento = document.querySelector('#comprimento')
 const largura = document.querySelector('#largura')
 const resultado = document.querySelector('#info')
 const total = document.querySelector('#total')
+const tipo = document.querySelector('#tipo')
 
 //let indexForm = []
-//???? Como usar arrays aqui?
+//???? Como usar arrays aqui? Talvez para pegar elementos do DOM seria uma boa, mas como...
 
+//const tiposTerreno = ['pequeno', 'medio', 'grande']
 let numForm = 0
 
 dadosForm.addEventListener('submit', (evt) => {
@@ -30,20 +32,21 @@ dadosForm.addEventListener('submit', (evt) => {
         valorAdd = 'Isento'
     }
     else if(valorTotal > 20000 && valorTotal <= 100000){
-        valorAdd = 'Aplicado 5%, logo: R$' + adicional(0.05)
+        valorAdd = 'Aplicado 5%, logo: R$' + adicional(0.05).toFixed(2)
     }
     else if(valorTotal > 100000 && valorTotal <= 500000){
-        valorAdd = 'Aplicado 10%, logo: R$' + adicional(0.10)
+        valorAdd = 'Aplicado 10%, logo: R$' + adicional(0.10).toFixed(2)
     }
     else if(valorTotal > 500000 && valorTotal <= 1000000){
-        valorAdd = 'Aplicado 15%, logo: R$' + adicional(0.15)
+        valorAdd = 'Aplicado 15%, logo: R$' + adicional(0.15).toFixed(2)
     }
     else if (valorTotal > 1000000){
-        valorAdd =  'Aplicado 20%, logo: R$' + adicional(0.20)
+        valorAdd =  'Aplicado 20%, logo: R$' + adicional(0.20).toFixed(2)
     }
     else{
         valorAdd = '???'
     }
+
 
     numForm++
    
@@ -57,9 +60,13 @@ dadosForm.addEventListener('submit', (evt) => {
     comprimento.value = ''
     largura.value = ''
 
+
+
+
 })
 
 // Logo, falta estrutura de repetição e arrays, como aplicar isso???
+
 //no mínimo criar um código básico, depois ver se consegue aplicar arrow function além do addEventListener
 
 //estou pensando em adicionar números a cada resposta do formulário, e uma função array contando cada entry, e uma div dizendo quantos dados foram preenchidoos, depois quando melhorar minhas habilidades, adicionar um quick link de algo assim: "pule para o formulario entry number x"
@@ -85,4 +92,22 @@ dadosForm.addEventListener('submit', (evt) => {
     console.log(largura.value)
     console.log((valorAdd))
     
+    exemplo array e repetição
+
+    transporte = ['Bicicleta', 'Carro', 'Moto', 'Ônibus', 'Avião', 'Tototo']
+
+    //são apenas 'strings'
+
+    //bicicleta = index 0; tototo = index 5 (começa do zero sempre)
+
+    for (i = 0; i < transporte.length; i++) {
+    console.log(transporte[i])
+    }
+
+
+
+
+
     */
+
+    //fazer algo simples, array para 3 tipos de terreno, repetição para checar se é pequeno, medio, grande
